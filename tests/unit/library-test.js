@@ -1,5 +1,5 @@
 import { module, test } from 'qunit';
-import Cookies from 'ember-cli-js-cookie';
+import Cookies from 'js-cookie';
 
 module('Unit | Utility | library');
 

@@ -10,7 +10,9 @@ module.exports = {
 
   included: function(app) {
     this._super.included.apply(this, arguments);
-    this.import('vendor/js.cookie.js');
+    this.import('vendor/js.cookie.js', {
+      using: [{ transformation: 'amd', as: 'js-cookie' }]
+    });
   },
 
   treeForVendor: function(vendorTree) {

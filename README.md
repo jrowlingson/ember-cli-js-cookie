@@ -6,7 +6,7 @@
 #### Usage
 ```js
 import Ember from 'ember';
-import Cookies from 'ember-cli-js-cookie';
+import Cookies from 'js-cookie';
 
 const { RSVP } = Ember;
 
